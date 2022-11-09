@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kinraidee?</title>
+    <link rel="stylesheet" href="stye.css">
+    <style>
+        
+    </style>
+</head>
+<body>
+    <h1><span style="color: orange;">KIN </span>RAI DEE?</h1>
+    <h3>มื้อนี้กินอะไรดีน้า?</h3>
+    <div class="newMenu">
+        <input onfocus="this.value=''" type="text" placeholder="เพิ่มเมนู...">
+    </div>
+        
+    <div class="btn">
+        <div><button id="allMenu">เมนูอาหาร</button></div>
+        <div><button id="random">สุ่มอาหาร</button></div>
+        <div><button id="addMenu">เพิ่มเมนู</button></div>
+        
+    </div>
+    <!-- result of random -->
+    <h2 id="food"></h2> 
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+    <!-- Modal content -->
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <p>-Menu-</p>
+        <ol id="showMenu"></ol>
+    </div>
+    <script src="random.js"></script>
+</body>
+</html>
